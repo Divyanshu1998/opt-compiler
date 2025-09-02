@@ -26,4 +26,12 @@ The project is split into three phases (modules), each implemented as an indepen
 ---
 
 ## 📂 Project Structure
+### 📊 Mermaid Diagram
+```mermaid
+flowchart LR
+    A[Java Source Code] --> B[Three-Address Code]
+    B --> C[Conditional Constant Propagation]
+    C --> D[Function Inlining]
+    D --> E[Optimized Code]
+
 
